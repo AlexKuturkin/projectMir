@@ -1088,4 +1088,25 @@ body {
   .information__grid {
     column-gap: 20px;
   }
+  .information__container {
+    margin-bottom: 20px;
+  }
+  .information__grid {
+    grid-template-rows: 45px 50px;
+  }
+  .information__grid-item-text_mod {
+    width: 50%;
+  }
+  .level2 {
+    margin-top: 32px;
+  }
+  .level1 {
+    margin-top: 25px;
+  }
+  .level-1 {
+    margin-top: 25px;
+  }
+  .level-2 {
+    margin-top: 32px;
+  }
 }
