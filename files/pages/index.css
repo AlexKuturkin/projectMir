@@ -77,6 +77,14 @@ body {
   font-size: 10px;
 }
 
+.header__icon-span:before {
+  content: "Доступно в";
+}
+
+.header__icon-span_text-ios {
+  font-weight: 700;
+}
+
 .header__icon_samsung {
   margin-right: 30px;
 }
@@ -366,7 +374,7 @@ body {
 }
 
 .arrow-left {
-  left: 180px;
+  left: 210px;
 }
 
 .fi-arrow-left:before {
@@ -382,7 +390,7 @@ body {
 }
 
 .arrow-right {
-  left: 790px;
+  left: 720px;
 }
 
 .item {
@@ -395,7 +403,7 @@ body {
     background-color 2s;
   background-repeat: no-repeat;
   background-size: cover;
-  border-radius: 45px;
+  border-radius: 20px;
 }
 
 .level-3 {
@@ -403,7 +411,7 @@ body {
   width: 254px;
   left: 650px;
   margin-top: 35px;
-  box-shadow: 0 0 0 323px rgba(0, 0, 0, 0.3) inset;
+  box-shadow: 0 0 0 323px rgba(0, 0, 0, 0.15) inset;
 }
 
 .level-2 {
@@ -412,7 +420,7 @@ body {
   left: 610px;
   margin-top: 25px;
   z-index: 3;
-  box-shadow: 0 0 0 323px rgba(0, 0, 0, 0.3) inset;
+  box-shadow: 0 0 0 323px rgba(0, 0, 0, 0.15) inset;
 }
 
 .level-1 {
@@ -421,7 +429,7 @@ body {
   left: 550px;
   margin-top: 10px;
   z-index: 4;
-  box-shadow: 0 0 0 323px rgba(0, 0, 0, 0.3) inset;
+  box-shadow: 0 0 0 323px rgba(0, 0, 0, 0.15) inset;
 }
 
 .level0 {
@@ -438,7 +446,7 @@ body {
   margin-top: 10px;
   left: 180px;
   z-index: 4;
-  box-shadow: 0 0 0 323px rgba(0, 0, 0, 0.3) inset;
+  box-shadow: 0 0 0 323px rgba(0, 0, 0, 0.15) inset;
 }
 
 .level2 {
@@ -447,7 +455,7 @@ body {
   margin-top: 25px;
   left: 130px;
   z-index: 3;
-  box-shadow: 0 0 0 323px rgba(0, 0, 0, 0.3) inset;
+  box-shadow: 0 0 0 323px rgba(0, 0, 0, 0.15) inset;
 }
 
 .level3 {
@@ -455,7 +463,7 @@ body {
   width: 254px;
   margin-top: 35px;
   left: 100px;
-  box-shadow: 0 0 0 323px rgba(0, 0, 0, 0.3) inset;
+  box-shadow: 0 0 0 323px rgba(0, 0, 0, 0.15) inset;
 }
 
 .left-enter {
@@ -880,6 +888,10 @@ body {
     font-size: 12px;
     line-height: 16px;
   }
+  .slider__image-spots {
+    top: 50px;
+    height: 300px;
+  }
 }
 
 @media (max-width: 750px) {
@@ -962,7 +974,7 @@ body {
     margin-top: 350px;
   }
   .subheader__image-container {
-    margin-top: 310px;
+    margin-top: 325px;
     margin-left: -28%;
   }
   .subheader__headline {
@@ -984,7 +996,7 @@ body {
   .header__icon_samsung {
     position: absolute;
     top: 57vh;
-    right: 30%;
+    right: 15%;
   }
   .subheader__text {
     padding-bottom: 0;
@@ -992,7 +1004,7 @@ body {
   .header__icon_apple {
     position: absolute;
     top: 57vh;
-    right: 50%;
+    right: 40%;
   }
   .header__logo-container {
     padding-top: 12px;
@@ -1001,8 +1013,9 @@ body {
     margin-right: 20%;
   }
   .header__icon {
-    padding: 8px 4px 0px 4px;
-    margin-top: 20px;
+    padding: 8px 8px 0px 8px;
+    margin-top: 30px;
+    width: 90px;
   }
   .header__icon-image {
     height: 17px;
@@ -1042,12 +1055,37 @@ body {
     margin-left: -40px;
   }
   .slider {
-    height: 600px;
+    height: 605px;
   }
   #carousel {
     top: 430px;
   }
   .footer {
     margin-top: 100px;
+  }
+  .header__icon-span_google:before {
+    content: "GET IN ON";
+  }
+  .header__icon-span_ios:before {
+    content: "Available on the";
+  }
+  .header__icon-span {
+    font-size: 8px;
+  }
+  .header__icon-span-text {
+    font-size: 12px;
+  }
+  .subheader__item-text_mod {
+    width: 43%;
+  }
+  .information__grid-logo {
+    right: 0vw;
+  }
+  .headline {
+    font-size: 22px;
+    line-height: 30px;
+  }
+  .information__grid {
+    column-gap: 20px;
   }
 }
