@@ -1,4 +1,4 @@
-priject Mir
+project Mir
 
 Стэк: HTML, CSS, JS, React.
 
